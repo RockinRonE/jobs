@@ -14,6 +14,7 @@ class Slides extends Component {
 					title="Onwards!"
 					raised
 					onPress={this.props.onComplete}
+					
 				/>
 			);
 		}
