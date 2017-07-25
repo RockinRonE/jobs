@@ -30,7 +30,7 @@ export const fetchJobs = (region) => async dispatch => {
 		dispatch({ type: FETCH_JOBS, payload: data });
 		console.log(data); 
 	} catch(e) {
-		console.error(e);
+		console.log(e);
 	}
 };
 
