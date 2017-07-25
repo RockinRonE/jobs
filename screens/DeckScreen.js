@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, Platform } from 'react-native';
 import { connect } from 'react-redux';
 import Swipe from '../components/Swipe';
-import MapView from 'expo';
+import {MapView} from 'expo';
 import { Card, Button } from 'react-native-elements';
 
 class DeckScreen extends Component {
@@ -38,7 +38,7 @@ class DeckScreen extends Component {
 		);
 	}
 
-	renderNoMoreCards = () => {
+	renderNoMoreCards() {
 		return (
 			<Card title="No More Jobs">
 			</Card>
