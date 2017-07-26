@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+ import React, { Component } from 'react';
 import { View, Text, Platform } from 'react-native';
 import { connect } from 'react-redux';
 import Swipe from '../components/Swipe';
@@ -26,7 +26,7 @@ class DeckScreen extends Component {
 					<MapView
 						scrollEnabled={false}
 						style={{ flex: 1 }}
-						cacheEnabled={Platform.OS === 'android' ? true : false}
+						cacheEnabled={Platform.OS === 'android'}
 						initialRegion={initialRegion}
 					>
 					</MapView>
