@@ -16,4 +16,4 @@ You'll need to have [Expo](http://expo.io) and a simulator (Xcode or Android Stu
 * Google Maps API
 * [React Navigation](https://reactnavigation.com)
 
-![](http://recordit.co/Kpy9A0C7Ek)
+![Video of the app](http://g.recordit.co/Kpy9A0C7Ek.gif)
